@@ -3,7 +3,7 @@
 ## v0.1.0 @yyb - 2026-06-24
 
 ### Added
-- Released the clean public PE2Sink demo artifact without private development history.
+- Released the clean public pe2sink demo artifact without private development history.
 - Added the FLUX.1-dev comma-padding prompt demo with dry-run and GPU modes.
 - Added the compact public paper-stats pack for no-GPU figure reproduction.
 - Added smoke tests covering prompt construction, dry-run metadata, and public figure generation.

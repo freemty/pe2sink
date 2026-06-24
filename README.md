@@ -1,10 +1,14 @@
-# PE2Sink: From Positional Embeddings to Attention Sinks
+# pe2sink
 
-[[Project Page](https://freemty.github.io/spin2sink-project-page/)] [[Code](https://github.com/freemty/pe2sink)] [[Reproduction](docs/REPRODUCTION.md)] [[Prompt Demo](examples/prompt_attack_flux.py)] [[Stats Pack](demo_assets/paper_stats/manifest.json)]
+> **Paper:** From a Spiral to a Sink: How Positional Encoding Shapes Attention Sinks in Diffusion Transformers
+>
+> **Authors:** Yuanbo Yang, Jiahao Shao, Yiyi Liao, Jun Gao
 
-[![PE2Sink teaser: architecture-dependent sink token identity and FLUX.1 token-type attention redistribution.](assets/teaser_overview.png)](https://freemty.github.io/spin2sink-project-page/)
+[[Project Page](https://freemty.github.io/pe2sink/)] [[Code](https://github.com/freemty/pe2sink)] [[Reproduction](docs/REPRODUCTION.md)] [[Prompt Demo](examples/prompt_attack_flux.py)] [[Stats Pack](demo_assets/paper_stats/manifest.json)]
 
-PE2Sink is a public demo artifact for studying how positional embeddings shape
+[![pe2sink teaser: architecture-dependent sink token identity and FLUX.1 token-type attention redistribution.](assets/teaser_overview.png)](https://freemty.github.io/pe2sink/)
+
+pe2sink is a public demo artifact for studying how positional embeddings shape
 attention sinks in diffusion transformers, with a compact statistics pack and a
 prompt-level comma-padding demo for FLUX.1-dev.
 
@@ -168,10 +172,10 @@ docs/                       Reproduction and export notes
 
 ```bibtex
 @misc{yang2026pe2sink,
-  title = {From Positional Embeddings to Attention Sinks in Diffusion Transformers},
-  author = {Yang, Yuanbo and Liao, Yiyi and Gao, Jun},
+  title = {From a Spiral to a Sink: How Positional Encoding Shapes Attention Sinks in Diffusion Transformers},
+  author = {Yang, Yuanbo and Shao, Jiahao and Liao, Yiyi and Gao, Jun},
   year = {2026},
-  note = {Public demo artifact},
+  note = {Manuscript under review},
   url = {https://github.com/freemty/pe2sink}
 }
 ```
