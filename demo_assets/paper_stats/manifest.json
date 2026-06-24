@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "description": "Small public stats pack for smoke-testing paper figure reproduction without GPU access.",
+  "source": {
+    "project": "pe2sink",
+    "model": "FLUX.1-dev",
+    "notes": "This pack is intentionally small. Full paper-scale outputs should be distributed separately as release artifacts or datasets."
+  },
+  "figures": {
+    "token_attention_bar": {
+      "stats": "pad_vs_comma_ki.json",
+      "extra_stats": "flux_keyimportance_stats.json",
+      "description": "Token-type key-importance comparison for baseline padding vs comma padding."
+    },
+    "same_norm": {
+      "stats": "flux_step_27_sink_curves.json.gz",
+      "description": "K/V heatmap and attention-score comparison for sink vs random tokens."
+    },
+    "norm_paradox_panel": {
+      "stats": "flux_step_27_sink_curves.json.gz",
+      "description": "Key norm and attention-score curves showing comparable norms but divergent attention."
+    },
+    "band_norm": {
+      "stats": "flux_step_27_sink_curves.json.gz",
+      "description": "RoPE band energy heatmap from the FLUX sink analysis JSON."
+    }
+  }
+}

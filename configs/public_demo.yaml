@@ -1,0 +1,12 @@
+# Public demo defaults. The Python demo exposes the same fields as CLI flags.
+prompt: "a puppy looking at a glowing screen"
+repeat: 200
+padding_token: ","
+seed: 42
+height: 1024
+width: 1024
+steps: 12
+guidance_scale: 3.5
+dtype: bfloat16
+model_id: black-forest-labs/FLUX.1-dev
+output_dir: outputs/public_demos/prompt_attack_flux
