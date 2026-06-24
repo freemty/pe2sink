@@ -2,7 +2,7 @@
 
 [[Project Page](https://freemty.github.io/spin2sink-project-page/)] [[Code](https://github.com/freemty/pe2sink)] [[Reproduction](docs/REPRODUCTION.md)] [[Prompt Demo](examples/prompt_attack_flux.py)] [[Stats Pack](demo_assets/paper_stats/manifest.json)]
 
-[![PE2Sink teaser: Key Importance bars reveal architecture-dependent sink token types across PixArt, FLUX.1, Wan2.1, and LTX-Video.](assets/teaser_key_importance.png)](https://freemty.github.io/spin2sink-project-page/)
+[![PE2Sink teaser: architecture-dependent sink token identity and FLUX.1 token-type attention redistribution.](assets/teaser_overview.png)](https://freemty.github.io/spin2sink-project-page/)
 
 PE2Sink is a public demo artifact for studying how positional embeddings shape
 attention sinks in diffusion transformers, with a compact statistics pack and a
